@@ -5,18 +5,16 @@
 }
 
 .navbar{
-	background-color: black;
+	background: linear-gradient(black, gray) ;
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	align-items: center;
-
 }
 
 .navbar .logo{
 	width: 250px;
 	height: 250px;
 	border-radius: 150px;
-
 }
 .navbar h1{
 	display: flex;
@@ -24,7 +22,6 @@
 	grid-column: 2/4;
 	font-size: 60px;
 	color: white;
-	
 }
 
 .navbar ul{
@@ -58,7 +55,6 @@
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(8, 1fr);
-	
 }
 
 .main .h2{
@@ -84,7 +80,7 @@
 }
 
 .footer {
-	background-color: black;
+	background: linear-gradient(black, gray);
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(6, 1fr);
@@ -96,12 +92,10 @@
 	align-items: center;
 	grid-column: 3/7;
 	grid-row: 2/2;
-
 }
 
 .footer li{
 	list-style: none;
-	
 }
 
 .footer a{

@@ -6,7 +6,8 @@
 }
 
 .navbar {
-  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
+  background: linear-gradient(black, gray);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[8];
@@ -118,7 +119,8 @@
 }
 
 .footer {
-  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
+  background: linear-gradient(black, gray);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[8];
